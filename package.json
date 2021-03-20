@@ -1,0 +1,17 @@
+{
+  "name": "node-rest-api-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/src/index.js",
+    "build": "node_modules/typescript/bin/tsc -p ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Daniel Sonne Lehnberg <doddy@doddy.se> (https://www.doddy.se/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "typescript": "^4.2.3"
+  }
+}
